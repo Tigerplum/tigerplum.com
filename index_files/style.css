@@ -1,0 +1,26 @@
+/*
+Theme Name: JC Design Child
+Description: JC Design Child Theme for Enfold
+Version: 1.0
+Author: Jess Cook
+Author URI: http://www.kriesi.at
+Template: enfold
+*/
+
+
+
+/**** TIGER PLUM ****/
+
+/****GLOBAL STYLING ****/
+
+/* Remove zoom on hover */
+.avia_desktop .av-masonry-entry:hover .av-masonry-image-container {
+-webkit-transform: scale(1,1);
+-moz-transform: scale(1,1);
+transform: scale(1,1);
+}
+
+/* Remove tooltip hover*/
+.avia-tooltip {
+display: none !important;
+}
